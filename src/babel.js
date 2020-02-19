@@ -13,6 +13,6 @@ class Util {
 console.log("Util Id:", Util.id);
 console.log(unused);
 
-import('lodash').then(_ => {
-  console.log('Lodash', _.random(0, 42, true))
+import('lodash/random').then(random => {
+  console.log('Lodash', random(0, 42, true))
 })

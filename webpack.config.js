@@ -94,8 +94,6 @@ const plugins = () => {
     ]),
     new MiniCssExtractPlugin({
       filename: filename("css")
-      // filename: '[name].css',
-      // chunkFilename: '[id].css',
     })
   ];
 
